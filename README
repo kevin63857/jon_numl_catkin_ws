@@ -1,0 +1,12 @@
+This is mostly valkyrie mirroring code, last time i checked, you need to install openni2 and NiTE2
+openni2 is easily done with apt-get
+NiTE2 is not
+look at the files in installStuff to install the NiTE stuff
+
+
+
+oh yeah, and this is dependent on ALL the valkyrie IHMC code, nasa code and numl code
+
+oh and of course ros and catkin tools
+
+and SFML
