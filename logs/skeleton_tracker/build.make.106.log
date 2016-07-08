@@ -1,0 +1,13 @@
+[ 16%] Built target skeleton_tracker
+[ 16%] Built target std_msgs_generate_messages_py
+[ 16%] Built target geometry_msgs_generate_messages_py
+[ 16%] Built target std_msgs_generate_messages_lisp
+[ 16%] [ 16%] Built target _skeleton_tracker_generate_messages_check_deps_user_IDs
+Built target geometry_msgs_generate_messages_lisp
+[ 16%] [ 16%] Built target geometry_msgs_generate_messages_cpp
+Built target std_msgs_generate_messages_cpp
+[ 50%] [ 66%] Built target skeleton_tracker_generate_messages_py
+Built target skeleton_tracker_generate_messages_lisp
+[ 83%] Built target skeleton_tracker_generate_messages_cpp
+[100%] Built target xtion_tracker
+[100%] Built target skeleton_tracker_generate_messages

@@ -1,0 +1,15 @@
+CMakeFiles/mirror.dir/src/mirror.cpp.o: In function `main':
+mirror.cpp:(.text+0x1788): undefined reference to `BodyState::getArmHomeAngles()'
+mirror.cpp:(.text+0x17ee): undefined reference to `BodyState::getArmHomeAngles()'
+mirror.cpp:(.text+0x1854): undefined reference to `BodyState::getChestHomeAngles()'
+mirror.cpp:(.text+0x18b8): undefined reference to `BodyState::getNeckHomeAngles()'
+mirror.cpp:(.text+0x1912): undefined reference to `BodyState::getPelvisHeightHomeAngles()'
+mirror.cpp:(.text+0x1a1d): undefined reference to `BodyState::getArmHomeAngles()'
+mirror.cpp:(.text+0x1b77): undefined reference to `BodyState::getArmHomeAngles()'
+mirror.cpp:(.text+0x1ccf): undefined reference to `BodyState::getChestHomeAngles()'
+mirror.cpp:(.text+0x1e23): undefined reference to `BodyState::getNeckHomeAngles()'
+mirror.cpp:(.text+0x1f68): undefined reference to `BodyState::getPelvisHeightHomeAngles()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/hoenir/numl_catkin_ws/devel/.private/mirror/lib/mirror/mirror] Error 1
+make[1]: *** [CMakeFiles/mirror.dir/all] Error 2
+make: *** [all] Error 2

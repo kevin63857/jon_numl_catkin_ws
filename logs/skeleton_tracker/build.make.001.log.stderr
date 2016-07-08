@@ -1,0 +1,7 @@
+/home/hoenir/numl_catkin_ws/src/skeleton_tracker/src/skeleton_tracker_node.cpp:64:46: fatal error: openni_camera/openni_depth_image.h: No such file or directory
+ #include "openni_camera/openni_depth_image.h"
+                                              ^
+compilation terminated.
+make[2]: *** [CMakeFiles/skeleton_tracker.dir/src/skeleton_tracker_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/skeleton_tracker.dir/all] Error 2
+make: *** [all] Error 2

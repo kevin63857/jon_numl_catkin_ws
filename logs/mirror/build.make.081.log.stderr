@@ -1,0 +1,13 @@
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp: In member function ‘void GUI::doButtonStuff(int)’:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:138:24: error: cannot convert ‘std::basic_ostringstream<char>::__string_type {aka std::basic_string<char>}’ to ‘const char*’ for argument ‘1’ to ‘int system(const char*)’
+    system(concat2.str());
+                        ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:141:7: error: jump to case label [-fpermissive]
+  case 11:
+       ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:136:22: error:   crosses initialization of ‘std::ostringstream concat2’
+   std::ostringstream concat2;
+                      ^
+make[2]: *** [CMakeFiles/mirror.dir/src/mirrorGUI.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mirror.dir/all] Error 2
+make: *** [all] Error 2

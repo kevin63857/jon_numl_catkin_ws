@@ -1,0 +1,54 @@
+In file included from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:1:0:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:23:49: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  sf::Color backgroundColor=sf::Color(255,0,0,255);
+                                                 ^
+In file included from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:1:0:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:61:22: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  long int startTime=-1;
+                      ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:64:31: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  double robotPositions[33]={-1};
+                               ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:65:31: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  double humanPositions[33]={-1};
+                               ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:66:37: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  double myo_orientation[3]={-1,-1,-1};
+                                     ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:70:19: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  bool isOcculusOn=false,isHeadOn=false,isLeftArmOn=false,isRightArmOn=false,isChestOn=false,isPelvisOn=false,areWeRecording=false;
+                   ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:70:34: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  bool isOcculusOn=false,isHeadOn=false,isLeftArmOn=false,isRightArmOn=false,isChestOn=false,isPelvisOn=false,areWeRecording=false;
+                                  ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:70:52: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  bool isOcculusOn=false,isHeadOn=false,isLeftArmOn=false,isRightArmOn=false,isChestOn=false,isPelvisOn=false,areWeRecording=false;
+                                                    ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:70:71: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  bool isOcculusOn=false,isHeadOn=false,isLeftArmOn=false,isRightArmOn=false,isChestOn=false,isPelvisOn=false,areWeRecording=false;
+                                                                       ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:70:87: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  bool isOcculusOn=false,isHeadOn=false,isLeftArmOn=false,isRightArmOn=false,isChestOn=false,isPelvisOn=false,areWeRecording=false;
+                                                                                       ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:70:104: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  bool isOcculusOn=false,isHeadOn=false,isLeftArmOn=false,isRightArmOn=false,isChestOn=false,isPelvisOn=false,areWeRecording=false;
+                                                                                                        ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:70:125: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  bool isOcculusOn=false,isHeadOn=false,isLeftArmOn=false,isRightArmOn=false,isChestOn=false,isPelvisOn=false,areWeRecording=false;
+                                                                                                                             ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:64:31: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  double robotPositions[33]={-1};
+                               ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:65:31: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  double humanPositions[33]={-1};
+                               ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:66:37: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  double myo_orientation[3]={-1,-1,-1};
+                                     ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp: In member function ‘void GUI::init()’:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:61:1: error: expected ‘;’ before ‘}’ token
+ }
+ ^
+make[2]: *** [CMakeFiles/mirror.dir/src/mirrorGUI.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mirror.dir/all] Error 2
+make: *** [all] Error 2

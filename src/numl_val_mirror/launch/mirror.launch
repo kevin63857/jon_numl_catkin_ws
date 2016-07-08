@@ -1,0 +1,7 @@
+<launch>
+	<include file="$(find skeleton_tracker)/launch/tracker.launch"/>
+	<node name="mirror" pkg="mirror" type="mirror" output="screen">
+	</node>
+	<node name="myo_raw" pkg="myo_raw" type="myo_node.py" output="screen">
+	</node>
+</launch>

@@ -1,0 +1,21 @@
+/home/hoenir/numl_catkin_ws/src/skeleton_tracker/src/skeleton_tracker_node.cpp:64:46: fatal error: openni_camera/openni_depth_image.h: No such file or directory
+ #include "openni_camera/openni_depth_image.h"
+                                              ^
+compilation terminated.
+In file included from /home/hoenir/numl_catkin_ws/src/skeleton_tracker/src/xtion_tracker_node.cpp:11:0:
+/home/hoenir/numl_catkin_ws/src/skeleton_tracker/include/skeleton_tracker/xtion_tracker.hpp:559:43: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+   bool g_visibleUsers_[MAX_USERS] = {false};
+                                           ^
+/home/hoenir/numl_catkin_ws/src/skeleton_tracker/include/skeleton_tracker/xtion_tracker.hpp:560:74: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+   nite::SkeletonState g_skeletonStates_[MAX_USERS] = {nite::SKELETON_NONE};
+                                                                          ^
+/home/hoenir/numl_catkin_ws/src/skeleton_tracker/include/skeleton_tracker/xtion_tracker.hpp:559:43: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+   bool g_visibleUsers_[MAX_USERS] = {false};
+                                           ^
+/home/hoenir/numl_catkin_ws/src/skeleton_tracker/include/skeleton_tracker/xtion_tracker.hpp:560:74: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+   nite::SkeletonState g_skeletonStates_[MAX_USERS] = {nite::SKELETON_NONE};
+                                                                          ^
+make[2]: *** [CMakeFiles/skeleton_tracker.dir/src/skeleton_tracker_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/skeleton_tracker.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

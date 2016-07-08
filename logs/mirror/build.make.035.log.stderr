@@ -1,0 +1,404 @@
+In file included from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:1:0:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:23:49: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  sf::Color backgroundColor=sf::Color(255,0,0,255);
+                                                 ^
+In file included from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:1:0:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:60:27: error: expected identifier before string constant
+  std::ofstream recordFile("\~/valkrieCommandRecords/record");
+                           ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:60:27: error: expected ‘,’ or ‘...’ before string constant
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:61:22: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  long int startTime=-1;
+                      ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:64:31: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  double robotPositions[33]={-1};
+                               ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:65:31: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  double humanPositions[33]={-1};
+                               ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:69:19: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  bool isOcculusOn=false,isHeadOn=false,isLeftArmOn=false,isRightArmOn=false,isChestOn=false,isPelvisOn=false,areWeRecording=false;
+                   ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:69:34: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  bool isOcculusOn=false,isHeadOn=false,isLeftArmOn=false,isRightArmOn=false,isChestOn=false,isPelvisOn=false,areWeRecording=false;
+                                  ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:69:52: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  bool isOcculusOn=false,isHeadOn=false,isLeftArmOn=false,isRightArmOn=false,isChestOn=false,isPelvisOn=false,areWeRecording=false;
+                                                    ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:69:71: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  bool isOcculusOn=false,isHeadOn=false,isLeftArmOn=false,isRightArmOn=false,isChestOn=false,isPelvisOn=false,areWeRecording=false;
+                                                                       ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:69:87: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  bool isOcculusOn=false,isHeadOn=false,isLeftArmOn=false,isRightArmOn=false,isChestOn=false,isPelvisOn=false,areWeRecording=false;
+                                                                                       ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:69:104: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  bool isOcculusOn=false,isHeadOn=false,isLeftArmOn=false,isRightArmOn=false,isChestOn=false,isPelvisOn=false,areWeRecording=false;
+                                                                                                        ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:69:125: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  bool isOcculusOn=false,isHeadOn=false,isLeftArmOn=false,isRightArmOn=false,isChestOn=false,isPelvisOn=false,areWeRecording=false;
+                                                                                                                             ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:64:31: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  double robotPositions[33]={-1};
+                               ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:65:31: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  double humanPositions[33]={-1};
+                               ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp: In member function ‘void GUI::doButtonStuff(int)’:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:110:15: error: ‘((GUI*)this)->GUI::recordFile’ does not have class type
+     recordFile.open(name.c_str());
+               ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:111:17: error: ‘((GUI*)this)->GUI::recordFile’ does not have class type
+    if(recordFile.is_open())
+                 ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:115:14: error: ‘((GUI*)this)->GUI::recordFile’ does not have class type
+    recordFile.close();
+              ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp: In member function ‘void GUI::record(std::string, std::vector<double>)’:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:12: error: no match for ‘operator<<’ (operand types are ‘<unresolved overloaded function type>’ and ‘std::string {aka std::basic_string<char>}’)
+  recordFile<<prefix<<" ";
+            ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:12: note: candidates are:
+In file included from /usr/include/boost/config/no_tr1/complex.hpp:21:0,
+                 from /usr/include/boost/math/policies/error_handling.hpp:15,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/indigo/include/ros/time.h:58,
+                 from /opt/ros/indigo/include/ros/serialization.h:34,
+                 from /opt/ros/indigo/include/sensor_msgs/JointState.h:14,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:7,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:1:
+/usr/include/c++/4.8/complex:524:5: note: template<class _Tp, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::complex<_Tp>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const complex<_Tp>& __x)
+     ^
+/usr/include/c++/4.8/complex:524:5: note:   template argument deduction/substitution failed:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   ‘std::ofstream (GUI::*)(int) {aka std::basic_ofstream<char> (GUI::*)(int)}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  recordFile<<prefix<<" ";
+              ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   could not resolve address from overloaded function ‘((GUI*)this)->GUI::recordFile’
+In file included from /usr/include/boost/math/policies/error_handling.hpp:12:0,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/indigo/include/ros/time.h:58,
+                 from /opt/ros/indigo/include/ros/serialization.h:34,
+                 from /opt/ros/indigo/include/sensor_msgs/JointState.h:14,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:7,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:1:
+/usr/include/c++/4.8/iomanip:235:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setw)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setw __f)
+     ^
+/usr/include/c++/4.8/iomanip:235:5: note:   template argument deduction/substitution failed:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   ‘std::ofstream (GUI::*)(int) {aka std::basic_ofstream<char> (GUI::*)(int)}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  recordFile<<prefix<<" ";
+              ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   could not resolve address from overloaded function ‘((GUI*)this)->GUI::recordFile’
+In file included from /usr/include/boost/math/policies/error_handling.hpp:12:0,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/indigo/include/ros/time.h:58,
+                 from /opt/ros/indigo/include/ros/serialization.h:34,
+                 from /opt/ros/indigo/include/sensor_msgs/JointState.h:14,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:7,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:1:
+/usr/include/c++/4.8/iomanip:205:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setprecision)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setprecision __f)
+     ^
+/usr/include/c++/4.8/iomanip:205:5: note:   template argument deduction/substitution failed:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   ‘std::ofstream (GUI::*)(int) {aka std::basic_ofstream<char> (GUI::*)(int)}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  recordFile<<prefix<<" ";
+              ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   could not resolve address from overloaded function ‘((GUI*)this)->GUI::recordFile’
+In file included from /usr/include/boost/math/policies/error_handling.hpp:12:0,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/indigo/include/ros/time.h:58,
+                 from /opt/ros/indigo/include/ros/serialization.h:34,
+                 from /opt/ros/indigo/include/sensor_msgs/JointState.h:14,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:7,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:1:
+/usr/include/c++/4.8/iomanip:175:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setfill<_CharT>)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setfill<_CharT> __f)
+     ^
+/usr/include/c++/4.8/iomanip:175:5: note:   template argument deduction/substitution failed:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   ‘std::ofstream (GUI::*)(int) {aka std::basic_ofstream<char> (GUI::*)(int)}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  recordFile<<prefix<<" ";
+              ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   could not resolve address from overloaded function ‘((GUI*)this)->GUI::recordFile’
+In file included from /usr/include/boost/math/policies/error_handling.hpp:12:0,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/indigo/include/ros/time.h:58,
+                 from /opt/ros/indigo/include/ros/serialization.h:34,
+                 from /opt/ros/indigo/include/sensor_msgs/JointState.h:14,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:7,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:1:
+/usr/include/c++/4.8/iomanip:140:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setbase)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setbase __f)
+     ^
+/usr/include/c++/4.8/iomanip:140:5: note:   template argument deduction/substitution failed:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   ‘std::ofstream (GUI::*)(int) {aka std::basic_ofstream<char> (GUI::*)(int)}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  recordFile<<prefix<<" ";
+              ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   could not resolve address from overloaded function ‘((GUI*)this)->GUI::recordFile’
+In file included from /usr/include/boost/math/policies/error_handling.hpp:12:0,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/indigo/include/ros/time.h:58,
+                 from /opt/ros/indigo/include/ros/serialization.h:34,
+                 from /opt/ros/indigo/include/sensor_msgs/JointState.h:14,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:7,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:1:
+/usr/include/c++/4.8/iomanip:106:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setiosflags)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setiosflags __f)
+     ^
+/usr/include/c++/4.8/iomanip:106:5: note:   template argument deduction/substitution failed:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   ‘std::ofstream (GUI::*)(int) {aka std::basic_ofstream<char> (GUI::*)(int)}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  recordFile<<prefix<<" ";
+              ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   could not resolve address from overloaded function ‘((GUI*)this)->GUI::recordFile’
+In file included from /usr/include/boost/math/policies/error_handling.hpp:12:0,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/indigo/include/ros/time.h:58,
+                 from /opt/ros/indigo/include/ros/serialization.h:34,
+                 from /opt/ros/indigo/include/sensor_msgs/JointState.h:14,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:7,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:1:
+/usr/include/c++/4.8/iomanip:76:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Resetiosflags)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Resetiosflags __f)
+     ^
+/usr/include/c++/4.8/iomanip:76:5: note:   template argument deduction/substitution failed:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   ‘std::ofstream (GUI::*)(int) {aka std::basic_ofstream<char> (GUI::*)(int)}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  recordFile<<prefix<<" ";
+              ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   could not resolve address from overloaded function ‘((GUI*)this)->GUI::recordFile’
+In file included from /usr/include/SFML/System/Err.hpp:32:0,
+                 from /usr/include/SFML/System.hpp:34,
+                 from /usr/include/SFML/Window.hpp:32,
+                 from /usr/include/SFML/Graphics.hpp:32,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:4,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:1:
+/usr/include/c++/4.8/ostream:548:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+     ^
+/usr/include/c++/4.8/ostream:548:5: note:   template argument deduction/substitution failed:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   ‘std::ofstream (GUI::*)(int) {aka std::basic_ofstream<char> (GUI::*)(int)}’ is not derived from ‘std::basic_ostream<char, _Traits>’
+  recordFile<<prefix<<" ";
+              ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   could not resolve address from overloaded function ‘((GUI*)this)->GUI::recordFile’
+In file included from /usr/include/SFML/System/Err.hpp:32:0,
+                 from /usr/include/SFML/System.hpp:34,
+                 from /usr/include/SFML/Window.hpp:32,
+                 from /usr/include/SFML/Graphics.hpp:32,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:4,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:1:
+/usr/include/c++/4.8/ostream:543:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+     ^
+/usr/include/c++/4.8/ostream:543:5: note:   template argument deduction/substitution failed:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   ‘std::ofstream (GUI::*)(int) {aka std::basic_ofstream<char> (GUI::*)(int)}’ is not derived from ‘std::basic_ostream<char, _Traits>’
+  recordFile<<prefix<<" ";
+              ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   could not resolve address from overloaded function ‘((GUI*)this)->GUI::recordFile’
+In file included from /usr/include/SFML/System/Err.hpp:32:0,
+                 from /usr/include/SFML/System.hpp:34,
+                 from /usr/include/SFML/Window.hpp:32,
+                 from /usr/include/SFML/Graphics.hpp:32,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:4,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:1:
+/usr/include/c++/4.8/ostream:530:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+     ^
+/usr/include/c++/4.8/ostream:530:5: note:   template argument deduction/substitution failed:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   ‘std::ofstream (GUI::*)(int) {aka std::basic_ofstream<char> (GUI::*)(int)}’ is not derived from ‘std::basic_ostream<char, _Traits>’
+  recordFile<<prefix<<" ";
+              ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   could not resolve address from overloaded function ‘((GUI*)this)->GUI::recordFile’
+In file included from /usr/include/c++/4.8/ostream:612:0,
+                 from /usr/include/SFML/System/Err.hpp:32,
+                 from /usr/include/SFML/System.hpp:34,
+                 from /usr/include/SFML/Window.hpp:32,
+                 from /usr/include/SFML/Graphics.hpp:32,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:4,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:1:
+/usr/include/c++/4.8/bits/ostream.tcc:321:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+     ^
+/usr/include/c++/4.8/bits/ostream.tcc:321:5: note:   template argument deduction/substitution failed:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   ‘std::ofstream (GUI::*)(int) {aka std::basic_ofstream<char> (GUI::*)(int)}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  recordFile<<prefix<<" ";
+              ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   could not resolve address from overloaded function ‘((GUI*)this)->GUI::recordFile’
+In file included from /usr/include/SFML/System/Err.hpp:32:0,
+                 from /usr/include/SFML/System.hpp:34,
+                 from /usr/include/SFML/Window.hpp:32,
+                 from /usr/include/SFML/Graphics.hpp:32,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:4,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:1:
+/usr/include/c++/4.8/ostream:513:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+     ^
+/usr/include/c++/4.8/ostream:513:5: note:   template argument deduction/substitution failed:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   ‘std::ofstream (GUI::*)(int) {aka std::basic_ofstream<char> (GUI::*)(int)}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  recordFile<<prefix<<" ";
+              ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   could not resolve address from overloaded function ‘((GUI*)this)->GUI::recordFile’
+In file included from /usr/include/SFML/System/Err.hpp:32:0,
+                 from /usr/include/SFML/System.hpp:34,
+                 from /usr/include/SFML/Window.hpp:32,
+                 from /usr/include/SFML/Graphics.hpp:32,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:4,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:1:
+/usr/include/c++/4.8/ostream:493:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+     ^
+/usr/include/c++/4.8/ostream:493:5: note:   template argument deduction/substitution failed:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   ‘std::ofstream (GUI::*)(int) {aka std::basic_ofstream<char> (GUI::*)(int)}’ is not derived from ‘std::basic_ostream<char, _Traits>’
+  recordFile<<prefix<<" ";
+              ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   could not resolve address from overloaded function ‘((GUI*)this)->GUI::recordFile’
+In file included from /usr/include/SFML/System/Err.hpp:32:0,
+                 from /usr/include/SFML/System.hpp:34,
+                 from /usr/include/SFML/Window.hpp:32,
+                 from /usr/include/SFML/Graphics.hpp:32,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:4,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:1:
+/usr/include/c++/4.8/ostream:488:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+     ^
+/usr/include/c++/4.8/ostream:488:5: note:   template argument deduction/substitution failed:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   ‘std::ofstream (GUI::*)(int) {aka std::basic_ofstream<char> (GUI::*)(int)}’ is not derived from ‘std::basic_ostream<char, _Traits>’
+  recordFile<<prefix<<" ";
+              ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   could not resolve address from overloaded function ‘((GUI*)this)->GUI::recordFile’
+In file included from /usr/include/SFML/System/Err.hpp:32:0,
+                 from /usr/include/SFML/System.hpp:34,
+                 from /usr/include/SFML/Window.hpp:32,
+                 from /usr/include/SFML/Graphics.hpp:32,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:4,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:1:
+/usr/include/c++/4.8/ostream:482:5: note: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+     ^
+/usr/include/c++/4.8/ostream:482:5: note:   template argument deduction/substitution failed:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   ‘std::ofstream (GUI::*)(int) {aka std::basic_ofstream<char> (GUI::*)(int)}’ is not derived from ‘std::basic_ostream<char, _Traits>’
+  recordFile<<prefix<<" ";
+              ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   could not resolve address from overloaded function ‘((GUI*)this)->GUI::recordFile’
+In file included from /usr/include/SFML/System/Err.hpp:32:0,
+                 from /usr/include/SFML/System.hpp:34,
+                 from /usr/include/SFML/Window.hpp:32,
+                 from /usr/include/SFML/Graphics.hpp:32,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:4,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:1:
+/usr/include/c++/4.8/ostream:476:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+     ^
+/usr/include/c++/4.8/ostream:476:5: note:   template argument deduction/substitution failed:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   ‘std::ofstream (GUI::*)(int) {aka std::basic_ofstream<char> (GUI::*)(int)}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  recordFile<<prefix<<" ";
+              ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   could not resolve address from overloaded function ‘((GUI*)this)->GUI::recordFile’
+In file included from /usr/include/SFML/System/Err.hpp:32:0,
+                 from /usr/include/SFML/System.hpp:34,
+                 from /usr/include/SFML/Window.hpp:32,
+                 from /usr/include/SFML/Graphics.hpp:32,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:4,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:1:
+/usr/include/c++/4.8/ostream:471:5: note: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+     ^
+/usr/include/c++/4.8/ostream:471:5: note:   template argument deduction/substitution failed:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   ‘std::ofstream (GUI::*)(int) {aka std::basic_ofstream<char> (GUI::*)(int)}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  recordFile<<prefix<<" ";
+              ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   could not resolve address from overloaded function ‘((GUI*)this)->GUI::recordFile’
+In file included from /usr/include/c++/4.8/string:52:0,
+                 from /usr/include/c++/4.8/bits/locale_classes.h:40,
+                 from /usr/include/c++/4.8/bits/ios_base.h:41,
+                 from /usr/include/c++/4.8/ios:42,
+                 from /usr/include/c++/4.8/ostream:38,
+                 from /usr/include/SFML/System/Err.hpp:32,
+                 from /usr/include/SFML/System.hpp:34,
+                 from /usr/include/SFML/Window.hpp:32,
+                 from /usr/include/SFML/Graphics.hpp:32,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:4,
+                 from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:1:
+/usr/include/c++/4.8/bits/basic_string.h:2753:5: note: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+     ^
+/usr/include/c++/4.8/bits/basic_string.h:2753:5: note:   template argument deduction/substitution failed:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   ‘std::ofstream (GUI::*)(int) {aka std::basic_ofstream<char> (GUI::*)(int)}’ is not derived from ‘std::basic_ostream<_CharT, _Traits>’
+  recordFile<<prefix<<" ";
+              ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:196:14: note:   could not resolve address from overloaded function ‘((GUI*)this)->GUI::recordFile’
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:198:21: error: invalid use of member function (did you forget the ‘()’ ?)
+   recordFile<<data[i]<<" ";
+                     ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:199:19: error: invalid use of member function (did you forget the ‘()’ ?)
+  recordFile<<std::endl;
+                   ^
+make[2]: *** [CMakeFiles/mirror.dir/src/mirrorGUI.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:9:0:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/bodyState.hpp:63:35: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  Point lastStats[15]={Point(0,0,0)};
+                                   ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/bodyState.hpp:64:33: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  Point rotated[15]={Point(0,0,0)}; //A better name would be transformed
+                                 ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/bodyState.hpp:65:34: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  Point rotated2[15]={Point(0,0,0)};
+                                  ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/bodyState.hpp:69:27: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  double highestHipAverage=.5;
+                           ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/bodyState.hpp:63:35: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  Point lastStats[15]={Point(0,0,0)};
+                                   ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/bodyState.hpp:64:33: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  Point rotated[15]={Point(0,0,0)}; //A better name would be transformed
+                                 ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/bodyState.hpp:65:34: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  Point rotated2[15]={Point(0,0,0)};
+                                  ^
+In file included from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:10:0:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:23:49: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  sf::Color backgroundColor=sf::Color(255,0,0,255);
+                                                 ^
+In file included from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:10:0:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:60:27: error: expected identifier before string constant
+  std::ofstream recordFile("\~/valkrieCommandRecords/record");
+                           ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:60:27: error: expected ‘,’ or ‘...’ before string constant
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:61:22: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  long int startTime=-1;
+                      ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:64:31: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  double robotPositions[33]={-1};
+                               ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:65:31: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  double humanPositions[33]={-1};
+                               ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:69:19: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  bool isOcculusOn=false,isHeadOn=false,isLeftArmOn=false,isRightArmOn=false,isChestOn=false,isPelvisOn=false,areWeRecording=false;
+                   ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:69:34: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  bool isOcculusOn=false,isHeadOn=false,isLeftArmOn=false,isRightArmOn=false,isChestOn=false,isPelvisOn=false,areWeRecording=false;
+                                  ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:69:52: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  bool isOcculusOn=false,isHeadOn=false,isLeftArmOn=false,isRightArmOn=false,isChestOn=false,isPelvisOn=false,areWeRecording=false;
+                                                    ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:69:71: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  bool isOcculusOn=false,isHeadOn=false,isLeftArmOn=false,isRightArmOn=false,isChestOn=false,isPelvisOn=false,areWeRecording=false;
+                                                                       ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:69:87: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  bool isOcculusOn=false,isHeadOn=false,isLeftArmOn=false,isRightArmOn=false,isChestOn=false,isPelvisOn=false,areWeRecording=false;
+                                                                                       ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:69:104: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  bool isOcculusOn=false,isHeadOn=false,isLeftArmOn=false,isRightArmOn=false,isChestOn=false,isPelvisOn=false,areWeRecording=false;
+                                                                                                        ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:69:125: warning: non-static data member initializers only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  bool isOcculusOn=false,isHeadOn=false,isLeftArmOn=false,isRightArmOn=false,isChestOn=false,isPelvisOn=false,areWeRecording=false;
+                                                                                                                             ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:64:31: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  double robotPositions[33]={-1};
+                               ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:65:31: warning: extended initializer lists only available with -std=c++11 or -std=gnu++11 [enabled by default]
+  double humanPositions[33]={-1};
+                               ^
+make[2]: *** [CMakeFiles/mirror.dir/src/mirror.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mirror.dir/all] Error 2
+make: *** [all] Error 2

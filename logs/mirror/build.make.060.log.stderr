@@ -1,0 +1,17 @@
+In file included from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:1:0:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:63:6: error: expected ‘;’ at end of member declaration
+  int gesture
+      ^
+make[2]: *** [CMakeFiles/mirror.dir/src/mirrorGUI.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:10:0:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:63:6: error: expected ‘;’ at end of member declaration
+  int gesture
+      ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp: In function ‘void updateGUI()’:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:345:39: error: ‘class GUI’ has no member named ‘gestureNames’
+  gestureBuilder<<"Myo_Gesture: "<<gui.gestureNames[gui.gesture];
+                                       ^
+make[2]: *** [CMakeFiles/mirror.dir/src/mirror.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mirror.dir/all] Error 2
+make: *** [all] Error 2

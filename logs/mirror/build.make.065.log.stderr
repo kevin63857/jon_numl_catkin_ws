@@ -1,0 +1,16 @@
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp: In function ‘int main(int, char**)’:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:200:94: error: no matching function for call to ‘movePelvisHeight(std::vector<double>)’
+    pelvis_height_controller.publish(movePelvisHeight(stateTracker.getPelvisHeightHomeAngles()));
+                                                                                              ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:200:94: note: candidates are:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:31:45: note: ihmc_msgs::PelvisHeightTrajectoryRosMessage movePelvisHeight(double, bool)
+ ihmc_msgs::PelvisHeightTrajectoryRosMessage movePelvisHeight(double angle,bool record);
+                                             ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:31:45: note:   candidate expects 2 arguments, 1 provided
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:35:45: note: ihmc_msgs::PelvisHeightTrajectoryRosMessage movePelvisHeight(double)
+ ihmc_msgs::PelvisHeightTrajectoryRosMessage movePelvisHeight(double angle){return movePelvisHeight(angle,true);}
+                                             ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:35:45: note:   no known conversion for argument 1 from ‘std::vector<double>’ to ‘double’
+make[2]: *** [CMakeFiles/mirror.dir/src/mirror.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mirror.dir/all] Error 2
+make: *** [all] Error 2

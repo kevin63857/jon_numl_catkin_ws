@@ -1,0 +1,19 @@
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp: In member function ‘void GUI::updateButtonStates()’:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:185:6: error: ‘gui’ was not declared in this scope
+  if((gui.goHomeCount>0 && gui.goHomeCount<12))
+      ^
+make[2]: *** [CMakeFiles/mirror.dir/src/mirrorGUI.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp: In function ‘int main(int, char**)’:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:200:14: error: ‘ihmc_msgs::GoHomeRosMessage’ has no member named ‘bodyPart’
+    goHomeMsg.bodyPart=0;
+              ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:205:14: error: ‘ihmc_msgs::GoHomeRosMessage’ has no member named ‘bodyPart’
+    goHomeMsg.bodyPart=1;
+              ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:207:14: error: ‘ihmc_msgs::GoHomeRosMessage’ has no member named ‘bodyPart’
+    goHomeMsg.bodyPart=2;
+              ^
+make[2]: *** [CMakeFiles/mirror.dir/src/mirror.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mirror.dir/all] Error 2
+make: *** [all] Error 2

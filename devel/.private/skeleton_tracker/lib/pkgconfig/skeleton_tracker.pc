@@ -1,0 +1,8 @@
+prefix=/home/hoenir/numl_catkin_ws/devel/.private/skeleton_tracker
+
+Name: skeleton_tracker
+Description: Description of skeleton_tracker
+Version: 0.1.0
+Cflags: -I/home/hoenir/numl_catkin_ws/devel/.private/skeleton_tracker/include -I/home/hoenir/numl_catkin_ws/src/skeleton_tracker/include
+Libs: -L/home/hoenir/numl_catkin_ws/devel/.private/skeleton_tracker/lib -lskeleton_tracker
+Requires: cv_bridge geometry_msgs image_transport kdl_conversions openni2_camera pcl_conversions pcl_ros roscpp roslib tf

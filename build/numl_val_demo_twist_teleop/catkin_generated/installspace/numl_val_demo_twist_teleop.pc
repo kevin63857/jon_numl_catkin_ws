@@ -1,0 +1,8 @@
+prefix=/home/hoenir/numl_catkin_ws/install
+
+Name: numl_val_demo_twist_teleop
+Description: Description of numl_val_demo_twist_teleop
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/hoenir/numl_catkin_ws/install/lib 
+Requires: 

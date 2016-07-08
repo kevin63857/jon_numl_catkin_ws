@@ -1,0 +1,43 @@
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp: In function ‘int main(int, char**)’:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:198:70: error: no matching function for call to ‘moveArm(std::vector<double>)’
+    chest_controller.publish(moveArm(stateTracker.getChestHomeAngles()));
+                                                                      ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:198:70: note: candidates are:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:28:36: note: ihmc_msgs::ArmTrajectoryRosMessage moveArm(int, std::vector<double>, bool)
+ ihmc_msgs::ArmTrajectoryRosMessage moveArm(int side,std::vector<double> angles,bool record);
+                                    ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:28:36: note:   candidate expects 3 arguments, 1 provided
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:32:36: note: ihmc_msgs::ArmTrajectoryRosMessage moveArm(int, std::vector<double>)
+ ihmc_msgs::ArmTrajectoryRosMessage moveArm(int side,std::vector<double> angles){return moveArm(side,angles,true);}
+                                    ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:32:36: note:   candidate expects 2 arguments, 1 provided
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:199:4: error: ‘head_controller’ was not declared in this scope
+    head_controller.publish(moveArm(stateTracker.getNeckHomeAngles()));
+    ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:199:68: error: no matching function for call to ‘moveArm(std::vector<double>)’
+    head_controller.publish(moveArm(stateTracker.getNeckHomeAngles()));
+                                                                    ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:199:68: note: candidates are:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:28:36: note: ihmc_msgs::ArmTrajectoryRosMessage moveArm(int, std::vector<double>, bool)
+ ihmc_msgs::ArmTrajectoryRosMessage moveArm(int side,std::vector<double> angles,bool record);
+                                    ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:28:36: note:   candidate expects 3 arguments, 1 provided
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:32:36: note: ihmc_msgs::ArmTrajectoryRosMessage moveArm(int, std::vector<double>)
+ ihmc_msgs::ArmTrajectoryRosMessage moveArm(int side,std::vector<double> angles){return moveArm(side,angles,true);}
+                                    ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:32:36: note:   candidate expects 2 arguments, 1 provided
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:200:85: error: no matching function for call to ‘moveArm(std::vector<double>)’
+    pelvis_height_controller.publish(moveArm(stateTracker.getPelvisHeightHomeAngles()));
+                                                                                     ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:200:85: note: candidates are:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:28:36: note: ihmc_msgs::ArmTrajectoryRosMessage moveArm(int, std::vector<double>, bool)
+ ihmc_msgs::ArmTrajectoryRosMessage moveArm(int side,std::vector<double> angles,bool record);
+                                    ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:28:36: note:   candidate expects 3 arguments, 1 provided
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:32:36: note: ihmc_msgs::ArmTrajectoryRosMessage moveArm(int, std::vector<double>)
+ ihmc_msgs::ArmTrajectoryRosMessage moveArm(int side,std::vector<double> angles){return moveArm(side,angles,true);}
+                                    ^
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:32:36: note:   candidate expects 2 arguments, 1 provided
+make[2]: *** [CMakeFiles/mirror.dir/src/mirror.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mirror.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,7 @@
+[31m[1mCMake Error[0m at /home/hoenir/numl_catkin_ws/src/numl_val_mirror/cmake/Modules/FindSFML.cmake:358 (message):
+  Could NOT find SFML (missing: SFML_SYSTEM_LIBRARY SFML_WINDOW_LIBRARY
+  SFML_GRAPHICS_LIBRARY SFML_NETWORK_LIBRARY SFML_AUDIO_LIBRARY)
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:137 (find_package)
+
+

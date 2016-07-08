@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target mirror
+[0m[ 33%] [32mBuilding CXX object CMakeFiles/mirror.dir/src/mirror.cpp.o
+[0m[31m[1mLinking CXX executable /home/hoenir/numl_catkin_ws/devel/.private/mirror/lib/mirror/mirror
+[0m[100%] Built target mirror

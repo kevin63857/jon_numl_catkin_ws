@@ -1,0 +1,8 @@
+prefix=/home/hoenir/numl_catkin_ws/devel/.private/myo_raw
+
+Name: myo_raw
+Description: Description of myo_raw
+Version: 0.0.0
+Cflags: -I/home/hoenir/numl_catkin_ws/devel/.private/myo_raw/include
+Libs: -L/home/hoenir/numl_catkin_ws/devel/.private/myo_raw/lib 
+Requires: 

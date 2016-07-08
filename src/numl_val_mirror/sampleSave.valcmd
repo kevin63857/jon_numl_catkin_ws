@@ -1,0 +1,15 @@
+These top lines are just for reference:
+1:ArmTrajectoryRosMessage /ihmc_ros/valkyrie/control/arm_trajectory
+2:NeckTrajectoryRosMessage /ihmc_ros/valkyrie/control/neck_trajectory
+3:PelvisHeightTrajectoryRosMessage /ihmc_ros/valkyrie/control/pelvis_height_trajectory
+4:ChestTrajectoryRosMessage /ihmc_ros/valkyrie/control/chest_trajectory
+5:GoHomeRosMessage /ihms_ros/valkyrie/control/go_home
+
+This begins the actual save file: every line will begin with a number (the publisher to be used) followed by a series of doubles. Every thing will be prepended by a full goHome sequence
+First arg is time
+1: 3 0 1.8 1.4 1.9 2.1 0 0 0
+2: 3 0 0 0
+3: 3 1.2
+*: 250
+2: 3 0 .5 0
+*: 300

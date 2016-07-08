@@ -1,0 +1,8 @@
+prefix=/home/hoenir/numl_catkin_ws/devel/.private/numl_val_demo_tutorials
+
+Name: numl_val_demo_tutorials
+Description: Description of numl_val_demo_tutorials
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/hoenir/numl_catkin_ws/devel/.private/numl_val_demo_tutorials/lib 
+Requires: 

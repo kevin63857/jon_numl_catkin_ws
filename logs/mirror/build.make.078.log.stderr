@@ -1,0 +1,15 @@
+In file included from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirror.cpp:10:0:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:12:16: fatal error: cv.h: No such file or directory
+ #include <cv.h>
+                ^
+In file included from /home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/mirrorGUI.cpp:1:0:
+/home/hoenir/numl_catkin_ws/src/numl_val_mirror/src/../include/mirrorGUI.hpp:12:16: fatal error: cv.h: No such file or directory
+ #include <cv.h>
+                ^
+compilation terminated.
+compilation terminated.
+make[2]: *** [CMakeFiles/mirror.dir/src/mirror.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/mirror.dir/src/mirrorGUI.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mirror.dir/all] Error 2
+make: *** [all] Error 2
